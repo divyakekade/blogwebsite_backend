@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ limit: "25mb", extended: true }));
 app.use(bodyParser.json({ limit: "25mb", extended: true })); 
 app.use(cors({
     origin:"http://localhost:3000",
+    methods:['GET','POST','PUT']
     // credentials:true
 }));
 dotenv.config({ path: "./config/config.env" });
