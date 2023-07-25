@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdaf880e.css",
+    "main.js": "/static/js/main.8eb16fc2.js",
+    "static/media/about-us-sign-as-crossword-cube-blocks-white-background-3d-rendering_476612-13679.webp": "/static/media/about-us-sign-as-crossword-cube-blocks-white-background-3d-rendering_476612-13679.922d81fa963f3a3b8de7.webp",
+    "static/media/blog.jpg": "/static/media/blog.c84c2b6cc9e09f44a253.jpg",
+    "index.html": "/index.html",
+    "main.fdaf880e.css.map": "/static/css/main.fdaf880e.css.map",
+    "main.8eb16fc2.js.map": "/static/js/main.8eb16fc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdaf880e.css",
+    "static/js/main.8eb16fc2.js"
+  ]
+}
