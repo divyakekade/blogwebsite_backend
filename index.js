@@ -9,7 +9,10 @@ const { connect } = require("mongoose");
 const app = express(); 
 app.use(bodyParser.urlencoded({ limit: "25mb", extended: true }));
 app.use(bodyParser.json({ limit: "25mb", extended: true })); 
-app.use(cors());
+app.use(cors({
+    origin:"*",
+    credentials:true
+}));
 dotenv.config({ path: "./config/config.env" });
 connectDatabase();
 app.get("/", (req, res) => {
